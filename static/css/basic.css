@@ -1,0 +1,54 @@
+    h1{
+        color: black;
+        text-align: center;
+    }
+
+    .title{
+        font-family: Verdana;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .txt_show{
+        font-family: Verdana;
+        font-size: 14px;
+        display: block;
+    }
+
+    .txt_hid{
+        display: none;
+    }
+
+    #run_button{
+        font-size: 30px;
+        display: block;
+        margin:0 auto;
+        margin-top: 100px;
+    }
+
+    #left{
+        width: 250px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    #right{
+        width: 250px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    #lCube{
+        width:100px;
+        height:20px;
+        background:white;
+        float: left;
+		}
+
+    #rCube{
+        width:100px;
+        height:20px;
+        background:white;
+        float: left;
+		}
+
+

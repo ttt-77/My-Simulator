@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src = '../static/js/web.js'> </script>
+    <link rel="stylesheet" type="text/css" href="/static/css/basic.css">
+    <title>My Simulator</title>
+    {% endblock %}
+</head>
+
+<body>
+<h1>My Simulator</h1>
+<button id="run_button">&nbsp&nbsp&nbsp&nbspRun!&nbsp&nbsp&nbsp&nbsp</button>
+<div class="container-fluid">
+    <div class="row">
+        <div class="border border-left-0 border-dark" id ='left'>
+            <div class="col text-left"><br/>
+                <div class="title">Configuration</div><br />
+                <div class="txt_show">Distribution to simulate</div>
+                <select name="Dis_Type" id="Dis_Type">
+                    <option value="Normal" selected>Normal</option>
+                    <option value="Uniform">Uniform</option>
+                    <option value="Gamma">Gamma</option>
+                </select>
+                <br /><br />
+                <div id = 'normA' class="txt_show">Mean:</div>
+                <div id = 'uniA' class="txt_hid">Low:</div>
+                <div id = 'gammaA' class="txt_hid">Shape:</div>
+                <input type="text" name="ParaA" id="ParaA" oninput="value=value.match(/-?[0-9]*\.?[0-9]*/)" required="required" >
+                <br /><br/>
+                <div id = 'normB'  class="txt_show">Standard deviation:</div>
+                <div id = 'uniB' class="txt_hid">High:</div>
+                <div id = 'gammaB' class="txt_hid">Scale:</div>
+                <input type="text" name="ParaB" id="ParaB" oninput="value=value.match(/-?[0-9]*\.?[0-9]*/)" required="required" >
+                <br /><br/>
+            </div>
+        </div>
+        {% block content %}
+        {% endblock %}
+        <div class="border border-right-0 border-dark" id="right">
+            <div class="col"><br />
+                <div class="title">Profile</div>
+                <br /><br />
+                <div id ='Tl'>Total latency:</div>
+                <div id ='St' style="color: orange">Simulation time:</div>
+                <div id ='No'style="color: green">Network overhead:</div>
+                <br /><br>
+                <div id ='lCube'></div><div id ='rCube'></div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+</body>
+</html>
