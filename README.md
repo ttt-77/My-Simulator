@@ -29,3 +29,4 @@ This document explains why I choose the value of the step for different distribu
 |1|CS411 hello-flask-pretty|[CS411](https://github.com/uiuc-fa21-cs411/hello-world/tree/main/oct12-snippets/hello-flask-pretty)|
 |2|Resource Timing|[Resource Timing](https://web.dev/custom-metrics/?utm_source=devtools#server-timing-api)|
 |3|Bootstrap|[Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)|
+|4|Flask Introdiction|[Flask](https://read.helloflask.com/)|
