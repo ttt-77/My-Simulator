@@ -1,10 +1,18 @@
-name: cs411-sample-moviedb
+name: My-simulator
 channels:
   - defaults
 dependencies:
   - ca-certificates=2021.9.30 
   - certifi=2021.10.8
+  - libffi=3.3
+  - ncurses=6.2
+  - openssl=1.1.1l
+  - pip=21.0.1
   - python=3.7.11
   - numpy =1.19.2
+  - tk=8.6.10
+  - wheel=0.37.0
+  - xz=5.2.5
+  - zlib=1.2.11
   - pip:
     - flask==2.0.1
