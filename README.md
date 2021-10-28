@@ -18,3 +18,8 @@ python app.py
 ```
 localhost:5000
 ```
+## Step Explanation
+```
+This document explains why I choose the value of the step for different distribution in Simulator.py
+|`[Step Explanation](/example/profile.md)`|[Step Explanation](/example/profile.md)|
+```
