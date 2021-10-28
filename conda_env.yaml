@@ -1,0 +1,10 @@
+name: cs411-sample-moviedb
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2021.9.30 
+  - certifi=2021.10.8
+  - python=3.7.11
+  - numpy =1.19.2
+  - pip:
+    - flask==2.0.1
