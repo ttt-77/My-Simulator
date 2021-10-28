@@ -9,7 +9,7 @@ Calculate x,y based on the generated array of the distribution.
 -step: the forward steps of loop
 '''
 def calculation(s, bins, count, step):
-    s = sorted(s)
+    s.sort()
     mi = s[0]
     ma = s[-1]
     dif = (ma - mi) / bins
