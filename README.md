@@ -5,8 +5,8 @@ Git Clone
     cd My-Simulator
 ___
 #Set up conda env
-  conda env create --file env.yaml 
-  conda activate My-Simulator 
+  '''conda env create --file env.yaml 
+  conda activate My-Simulator '''
 #Run app 
   python app.py 
 #Access on browser 
