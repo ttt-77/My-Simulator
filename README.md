@@ -30,3 +30,5 @@ This document explains why I choose the value of the step for different distribu
 |2|Resource Timing|[Resource Timing](https://web.dev/custom-metrics/?utm_source=devtools#server-timing-api)|
 |3|Bootstrap|[Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)|
 |4|Flask Introdiction|[Flask](https://read.helloflask.com/)|
+|5|jQuery Tutorial|[jQuery](https://www.w3schools.com/jquery/default.asp)|
+|6|Random sampling|[Random sampling](https://numpy.org/doc/stable/reference/random/index.html)|
