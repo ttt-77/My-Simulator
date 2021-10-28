@@ -3,10 +3,10 @@
 Git Clone  
     git clone https://github.com/ttt-77/My-Simulator.git 
     cd My-Simulator
-___
+    
 #Set up conda env
-  '''conda env create --file env.yaml 
-  conda activate My-Simulator '''
+    conda env create --file env.yaml 
+    conda activate My-Simulator '''
 #Run app 
   python app.py 
 #Access on browser 
