@@ -22,7 +22,7 @@ localhost:5000
 ```
 This document explains why I choose the value of the step for different distribution in Simulator.py
 ``` 
-[Step_Explanation](/Step_Explanation.pdf)
+[Step_Explanation](/StepExplanation.pdf)
 ## References
 |#|Name|URL|
 |---|----|-----|  
